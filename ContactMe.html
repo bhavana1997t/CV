@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Bhavvana</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>#107 manjunatha nilaya</p>
+    <p>3rd cross 5th main MEI Layout</p>
+    <p>Bengaluru-560073</p>
+    <p>+91 8618408684</p>
+    <p>tbhavana58@gmail.com</p>
+    <from><input type="search"  placeholder="Search contact">
+    <input type="submit">
+
+    <br><br>
+    <h3>Add Contact</h3>
+
+    <form class="contact" action="mailto:tbhavana58@gmail.com" method="POST" enctype="text/plain">
+        
+        <label>Contact Name:</label>
+        <input type="text" name="name" value="" placeholder="Enter the name"><br><br>
+        <label>Mobile Number</label>
+        <input type="number" name="mobile" value="" placeholder="Enter mobile number"><br><br>
+        <label>Email Id</label>
+        <input type="email" name="email" value="" placeholder="Enter email id"><br><br>
+        <label>Date of birth</label>
+        <input type="date" name="dob" value="" placeholder="enter date of birth"><br><br>
+        <p>Gender</p>
+        <input type="radio" id="male" value="" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" value="" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+        <label>Date of adding th contact </label>
+        <input type="datetime-local" value="" name="doj"><br><br>
+        <label>Color</label>
+        <input type="color" value=""  name="color"><br>
+        <label>Upload</label>
+        <input type="file" value="" name="upload" placeholder="Upload a file"><br><br>
+        <label>Profile Photo</label>
+        <input type="url" value="" name="profilrpic" placeholder="enter url"><br><br>
+        <label for="address">Address</label>
+        <textarea name="address"value=""  row="30" col="90"></textarea><br><br>
+        <label>Rate me</label>
+        <input type="range" value="" name="rate"><br><br>
+        <textarea row=100 col=900  value=""placeholder="Enter Feedback"></textarea><br><br><br>
+        <input type="reset" >
+        <input type="submit">
+
+    </form>
+</body>
+</html>
